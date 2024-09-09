@@ -1,0 +1,17 @@
+#botao-7{
+    transition: all 0.3s ease;
+    background-color: palevioletred;
+
+    box-shadow: rgb(150, 67, 95) 0px 10px 0px 0px;
+}
+
+#botao-7:hover{
+    box-shadow: rgb(150, 67, 95) 0px 7px 0px 0px;
+}
+
+#botao-7:active{
+    box-shadow: none;
+    transform: translateY(5px);
+}
+
+

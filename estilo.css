@@ -1,0 +1,39 @@
+body,html{
+    height: 95%;
+}
+
+body{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.caixa-botoes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+}
+
+button{
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+
+    /*Animação*/
+    position: relative;
+    z-index: 1;
+    /*Fim Animação*/
+
+    color: white;
+    width: 200px;
+    height: 100px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 40px;
+    border: 0;
+}

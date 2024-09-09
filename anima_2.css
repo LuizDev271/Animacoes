@@ -1,0 +1,24 @@
+#botao-2{
+    background-color: blue;
+    overflow: hidden;
+}
+
+#botao-2::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background-color: rgba(155, 155, 255, 0.5);
+    border-radius: 40px;
+
+    width: 0;
+    height: 100%;
+
+
+    transition: width 0.5s ease-in-out;
+}
+
+#botao-2:hover::before{
+    width: 100%;
+}

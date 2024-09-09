@@ -1,0 +1,8 @@
+#botao-3{
+    background-color: orange;
+    transition: all 0.5s linear;
+}
+
+#botao-3:hover{
+    box-shadow: -5px 5px rgb(255, 165, 0, 0.5), -10px 10px rgb(255, 165, 0, 0.4), -15px 15px rgb(255, 165, 0, 0.3);
+}

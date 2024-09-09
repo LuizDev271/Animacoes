@@ -1,0 +1,15 @@
+#botao-5{
+    background-color: black;
+    transition: all 0.2s;
+}
+
+#botao-5:hover{
+    background-color: tomato;
+    transform: translate(-0.25rem, -0.25rem);
+    box-shadow: 0.25rem 0.25rem black;
+}
+
+#botao-5:active{
+    transform: translate(0);
+    box-shadow: none;
+}
